@@ -1,0 +1,242 @@
+
+
+.bioHeading{
+	color: white;
+	font-family: Arial black;
+	font-size: 40px;
+	margin-left: 20px;
+	padding-top: 20px;
+}
+
+body{
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+	
+	
+}
+
+
+
+.container{
+background-color: black;
+padding-left: 75px;
+padding-right: 75px;
+padding-top: 25px;
+padding-bottom: 50px;
+
+
+	
+
+}	
+.bioHeadingwrapper{
+	display: grid;
+	grid-template-columns: 70 30;
+
+
+}
+	
+
+.pic {
+height: 95px;
+margin-left: 480px;
+margin-top: -135px;
+border: 3px solid white;
+border-radius: 8px;
+
+
+}
+
+.bio {
+	font-family: Skia;
+	margin-left: 20px;
+	color: white;
+
+}	
+
+.education {
+	background-color: white;
+	height: auto;
+}
+
+.details {
+	color: white;
+	font-family: Skia;
+	margin-left: 25px;
+	display: inline-grid;
+	
+}
+#personaldetails{
+	cursor: pointer;
+}
+
+#detailslist{
+	display: none;
+	cursor: pointer;
+}
+
+#webdevskills{
+	cursor: pointer;
+}
+
+#webdevskillslist{
+	display: none;
+	cursor: pointer;
+}
+
+#designskills{
+	cursor: pointer;
+}
+
+#designskillslist{
+	display: none;
+	cursor: pointer;
+
+}
+li a {
+	color: red;
+}
+
+.btnbox{
+	border: 3px solid black;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	height:150px;
+	background-image: url(Images/office-pattern3.jpg);
+	background-size: cover;
+	margin-top: -25px;
+	margin-bottom: 20px;
+
+}
+
+.btn{
+	background-color: black;
+	color:white;
+	border-radius: 8px;
+	font-family: Avenir;
+	font-size: 12px;
+	height: 30px;
+	margin-top: 65px;
+
+
+}
+
+#bnt1{
+	margin-left: 50px;
+	margin-top: 35px;
+}
+
+#box1{
+	border: 3px solid black;
+	border-radius: 20px;
+	height: auto;
+	margin-left: 50px;
+	margin-right: 50px;
+	font-family: Avenir;
+	margin-bottom: 10px;
+	margin-top: 10px;
+    display: none; 
+
+}
+
+#box2{
+	border: 3px solid black;
+	border-radius: 20px;
+	height: auto;
+	margin-top: 20px;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding-left: 25px;
+	padding-right: 25px;
+	font-family: Avenir;
+    display: none; 
+
+
+}
+
+#closebtn1{
+	margin-top: 10px;
+	margin-left: 15px;
+}
+
+#closebtn2{
+	margin-top: 10px;
+	
+}
+.workinfo{
+	padding-left: 25px;
+}
+
+@media (min-width: 300px) {
+
+.container{
+	padding-left: 25px;
+	padding-right: 25px;
+
+}
+
+.pic {
+margin-left: 90px;
+margin-top: 0px;
+height: 100px;
+width: 60px;
+border: 3px solid white;
+border-radius: 100px;
+}
+
+.bioHeading{
+	color: white;
+	font-family: Arial black;
+	font-size: 20px;
+	margin-left: 20px;
+	padding-top: 20px;
+}
+
+}
+
+@media (min-width: 500px) {
+
+.pic {
+margin-left: 275px;
+margin-top: -100px;
+height: 100px;
+width: 60px;
+border: 3px solid white;
+border-radius: 100px;
+}
+
+.bioHeading{
+	color: white;
+	font-family: Arial black;
+	font-size: 20px;
+	margin-left: 20px;
+	padding-top: 20px;
+}
+
+}
+
+
+@media (min-width: 1000px) {
+
+.bioHeading{
+	color: white;
+	font-family: Arial black;
+	font-size: 35px;
+	margin-left: 20px;
+	padding-top: 20px;
+}
+
+.pic {
+width: 95px;
+height: 150px;
+margin-left: 460px;
+margin-top: -150px;
+border: 3px solid white;
+border-radius: 100px;
+
+
+
+}
+
+
+}
